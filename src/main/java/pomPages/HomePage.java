@@ -21,6 +21,7 @@ public class HomePage {
 	private WebElement searchButton;
 	@FindBy(xpath = "//ul[@class='dropdown-menu gear_menu']/descendant::a[.=' SkillRary Demo APP']")
 	private WebElement skillraryDemoApp;
+	@FindBy(xpath = "//a[.='X']") private WebElement ignoreCookies;
 
 	// Initialization
 	public HomePage(WebDriver driver) {
@@ -40,12 +41,7 @@ public class HomePage {
 	 * @param data
 	 */
 	public void searchFor(String data) {
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		ignoreCookies.click();
 		searchBar.sendKeys(data);
 		searchButton.click();
 	}

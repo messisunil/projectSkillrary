@@ -18,11 +18,6 @@ public class PlayCourseVideo extends BaseClass{
 		seleniumTrainingVideoPage.ignoreCookies();
 		WebdriverUtil.switchToFrame(0);
 		seleniumTrainingVideoPage.clickPlayButton();
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		seleniumTrainingVideoPage.clickPauseButton();
 		WebdriverUtil.switchBackFromFrame();
 		seleniumTrainingVideoPage.clickAddToWishList();
