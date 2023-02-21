@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import genericLibraries.WebDriverUtility;
 /**
  * This POM class consists of all business libraries related to skillrary home page
  * @author sunil
@@ -40,8 +42,9 @@ public class HomePage {
 	 * This method is used to search a course
 	 * @param data
 	 */
-	public void searchFor(String data) {
+	public void searchFor(String data, WebDriverUtility web) {
 		ignoreCookies.click();
+		web.explicitWait(10, searchBar);
 		searchBar.sendKeys(data);
 		searchButton.click();
 	}
