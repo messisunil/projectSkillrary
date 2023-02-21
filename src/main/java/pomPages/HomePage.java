@@ -40,6 +40,12 @@ public class HomePage {
 	 * @param data
 	 */
 	public void searchFor(String data) {
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		searchBar.sendKeys(data);
 		searchButton.click();
 	}
