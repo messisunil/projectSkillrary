@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T09:27:18 IST" name="Suite" finished-at="2023-02-21T09:29:03 IST" duration-ms="105573">
+    <groups>
+    </groups>
+    <test started-at="2023-02-21T09:27:18 IST" name="Test" finished-at="2023-02-21T09:29:03 IST" duration-ms="105573">
+      <class name="testScripts.PlayCourseVideo">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testScripts.PlayCourseVideo@783a467b]" started-at="2023-02-21T09:28:17 IST" name="classConfiguration" finished-at="2023-02-21T09:28:17 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testScripts.PlayCourseVideo@783a467b]" started-at="2023-02-21T09:28:17 IST" name="methodConfiguration" finished-at="2023-02-21T09:28:23 IST" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="playVideo()[pri:0, instance:testScripts.PlayCourseVideo@783a467b]" started-at="2023-02-21T09:28:23 IST" name="playVideo" finished-at="2023-02-21T09:28:47 IST" duration-ms="23483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playVideo -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.PlayCourseVideo@783a467b]" started-at="2023-02-21T09:28:47 IST" name="methodTearDown" finished-at="2023-02-21T09:28:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.PlayCourseVideo@783a467b]" started-at="2023-02-21T09:28:47 IST" name="classTearDown" finished-at="2023-02-21T09:28:47 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.PlayCourseVideo -->
+      <class name="testScripts.DragNDrop">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testScripts.DragNDrop@b9b00e0]" started-at="2023-02-21T09:27:18 IST" name="classConfiguration" finished-at="2023-02-21T09:27:19 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testScripts.DragNDrop@b9b00e0]" started-at="2023-02-21T09:27:19 IST" name="methodConfiguration" finished-at="2023-02-21T09:27:30 IST" duration-ms="11521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="dragNDropTheCourse()[pri:0, instance:testScripts.DragNDrop@b9b00e0]" started-at="2023-02-21T09:27:30 IST" name="dragNDropTheCourse" finished-at="2023-02-21T09:27:53 IST" duration-ms="22422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragNDropTheCourse -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.DragNDrop@b9b00e0]" started-at="2023-02-21T09:27:53 IST" name="methodTearDown" finished-at="2023-02-21T09:27:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.DragNDrop@b9b00e0]" started-at="2023-02-21T09:27:53 IST" name="classTearDown" finished-at="2023-02-21T09:27:53 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.DragNDrop -->
+      <class name="testScripts.AddToCart">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testScripts.AddToCart@272113c4]" started-at="2023-02-21T09:28:47 IST" name="classConfiguration" finished-at="2023-02-21T09:28:47 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testScripts.AddToCart@272113c4]" started-at="2023-02-21T09:28:47 IST" name="methodConfiguration" finished-at="2023-02-21T09:28:52 IST" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="addCourseToCart()[pri:0, instance:testScripts.AddToCart@272113c4]" started-at="2023-02-21T09:28:52 IST" name="addCourseToCart" finished-at="2023-02-21T09:29:03 IST" duration-ms="11023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCourseToCart -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddToCart@272113c4]" started-at="2023-02-21T09:29:03 IST" name="methodTearDown" finished-at="2023-02-21T09:29:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddToCart@272113c4]" started-at="2023-02-21T09:29:03 IST" name="classTearDown" finished-at="2023-02-21T09:29:03 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.AddToCart -->
+      <class name="testScripts.SendMail">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testScripts.SendMail@7db12bb6]" started-at="2023-02-21T09:27:53 IST" name="classConfiguration" finished-at="2023-02-21T09:27:53 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testScripts.SendMail@7db12bb6]" started-at="2023-02-21T09:27:53 IST" name="methodConfiguration" finished-at="2023-02-21T09:28:02 IST" duration-ms="8435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="sendMail()[pri:0, instance:testScripts.SendMail@7db12bb6]" started-at="2023-02-21T09:28:02 IST" name="sendMail" finished-at="2023-02-21T09:28:17 IST" duration-ms="15121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.SendMail@7db12bb6]" started-at="2023-02-21T09:28:17 IST" name="methodTearDown" finished-at="2023-02-21T09:28:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.SendMail@7db12bb6]" started-at="2023-02-21T09:28:17 IST" name="classTearDown" finished-at="2023-02-21T09:28:17 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.SendMail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
