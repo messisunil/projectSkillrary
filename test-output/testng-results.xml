@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T10:53:02 IST" name="Default suite" finished-at="2023-02-21T10:53:23 IST" duration-ms="20971">
+  <suite started-at="2023-02-22T08:25:07 IST" name="Default suite" finished-at="2023-02-22T08:25:33 IST" duration-ms="26459">
     <groups>
     </groups>
-    <test started-at="2023-02-21T10:53:02 IST" name="Default test" finished-at="2023-02-21T10:53:23 IST" duration-ms="20971">
-      <class name="testScripts.PlayCourseVideo">
-        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testScripts.PlayCourseVideo@29215f06]" started-at="2023-02-21T10:53:02 IST" name="classConfiguration" finished-at="2023-02-21T10:53:04 IST" duration-ms="1224" status="PASS">
+    <test started-at="2023-02-22T08:25:07 IST" name="Default test" finished-at="2023-02-22T08:25:33 IST" duration-ms="26459">
+      <class name="testScripts.DragNDrop">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testScripts.DragNDrop@29215f06]" started-at="2023-02-22T08:25:07 IST" name="classConfiguration" finished-at="2023-02-22T08:25:08 IST" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classConfiguration -->
-        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testScripts.PlayCourseVideo@29215f06]" started-at="2023-02-21T10:53:04 IST" name="methodConfiguration" finished-at="2023-02-21T10:53:09 IST" duration-ms="5316" status="PASS">
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testScripts.DragNDrop@29215f06]" started-at="2023-02-22T08:25:08 IST" name="methodConfiguration" finished-at="2023-02-22T08:25:12 IST" duration-ms="4650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodConfiguration -->
-        <test-method signature="playVideo()[pri:0, instance:testScripts.PlayCourseVideo@29215f06]" started-at="2023-02-21T10:53:09 IST" name="playVideo" finished-at="2023-02-21T10:53:23 IST" duration-ms="13991" status="PASS">
+        <test-method signature="dragNDropTheCourse()[pri:0, instance:testScripts.DragNDrop@29215f06]" started-at="2023-02-22T08:25:12 IST" name="dragNDropTheCourse" finished-at="2023-02-22T08:25:32 IST" duration-ms="19506" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- playVideo -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.PlayCourseVideo@29215f06]" started-at="2023-02-21T10:53:23 IST" name="methodTearDown" finished-at="2023-02-21T10:53:23 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- dragNDropTheCourse -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.DragNDrop@29215f06]" started-at="2023-02-22T08:25:32 IST" name="methodTearDown" finished-at="2023-02-22T08:25:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.PlayCourseVideo@29215f06]" started-at="2023-02-21T10:53:23 IST" name="classTearDown" finished-at="2023-02-21T10:53:23 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.DragNDrop@29215f06]" started-at="2023-02-22T08:25:32 IST" name="classTearDown" finished-at="2023-02-22T08:25:33 IST" duration-ms="1185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
-      </class> <!-- testScripts.PlayCourseVideo -->
+      </class> <!-- testScripts.DragNDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
