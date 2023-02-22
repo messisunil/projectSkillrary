@@ -17,7 +17,7 @@ public class HomePage {
 	private WebElement logo;
 	@FindBy(xpath = "//a[.=' GEARS ']")
 	private WebElement gears;
-	@FindBy(xpath = "//input[@type='search']")
+	@FindBy(xpath = "//input[@placeholder='Search for Courses']")
 	private WebElement searchBar;
 	@FindBy(xpath = "//input[@value='go']")
 	private WebElement searchButton;
