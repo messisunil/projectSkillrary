@@ -41,9 +41,7 @@ public class TestingPage {
 	 */
 	public void dragAndDropSeleniumImage(WebDriverUtility web)
 	{
-		web.dragAndDrop(seleniumImage, cartArea);
-		System.out.println(total.getText());
-		
+		web.dragAndDrop(seleniumImage, cartArea);	
 	}
 	/**
 	 * This method is used to scroll down till facebook
