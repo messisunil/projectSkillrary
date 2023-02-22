@@ -11,7 +11,7 @@ public class PlayCourseVideo extends BaseClass{
 	public void playVideo()
 	{
 		SoftAssert soft = new SoftAssert();
-		homePage.searchFor("core java for selenium",WebdriverUtil);
+		homePage.searchFor("core java for selenium");
 		soft.assertEquals(coreJavaForSeleniumPage.getPageHeader(), "CORE JAVA FOR SELENIUM");
 		coreJavaForSeleniumPage.clickCoreJaveForSeleniumLink();
 		soft.assertEquals(seleniumTrainingVideoPage.getPageHeader(), "Core Java For Selenium Training");

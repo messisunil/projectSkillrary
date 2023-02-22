@@ -42,9 +42,8 @@ public class HomePage {
 	 * This method is used to search a course
 	 * @param data
 	 */
-	public void searchFor(String data, WebDriverUtility web) {
+	public void searchFor(String data) {
 		ignoreCookies.click();
-		web.explicitWait(10, searchBar);
 		searchBar.sendKeys(data);
 		searchButton.click();
 	}
